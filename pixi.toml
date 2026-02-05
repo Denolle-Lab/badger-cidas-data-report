@@ -1,0 +1,23 @@
+[project]
+name = "seismic-tutorials"
+version = "0.1.0"
+description = "Tutorials for plotting seismic data from joint broadband and DAS experiments"
+authors = ["Denolle-Lab"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+
+[dependencies]
+python = ">=3.9"
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
+obspy = "*"
+jupyter = "*"
+notebook = "*"
+scipy = "*"
+h5py = "*"
+ipykernel = "*"
+
+[tasks]
+jupyter = "jupyter notebook"
+lab = "jupyter lab"

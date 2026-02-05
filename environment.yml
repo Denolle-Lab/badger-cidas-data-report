@@ -1,0 +1,17 @@
+name: seismic-tutorials
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - numpy
+  - matplotlib
+  - pandas
+  - obspy
+  - jupyter
+  - notebook
+  - scipy
+  - h5py
+  - pip
+  - pip:
+    - ipykernel
